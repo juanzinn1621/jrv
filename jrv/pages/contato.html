@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de contato</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<header>
+
+    <figure>
+        <a href="../index.html"><img src="../images/logo.png" alt="Sumiu" title="Este é o meu logo"></a>
+    </figure>
+
+    <section id="Busca">
+        <img src="./images/search3.png" alt="Sumiu"/>
+        <input type="text" id="txtBusca" placeholder="Buscar..."/>
+        <button id="btnBusca">Buscar</button>
+    </section>
+    
+    <nav>
+        <a href="../index.html"><button>Home</button></a>
+        <a href="minhavida.html"><button>Contato</button></a>
+        <a href="howto.html"><button>Contato</button></a>
+        <a href="contato.html"><button>Contato</button></a>
+    </nav>
+</header>
+
+<body>
+    <main>
+            <form action="teste.html">
+                Nome
+                <input type="Text" id="nome" name="nome"
+                    required placeholder="Digite seu nome completo">
+            </br>
+                       Data de nascimento
+                       <input type="date" id="nascimento" name="nascimento" >
+
+            </br>
+                    <input type="submit" id="botao" name="botao"
+                    value="Enviar">
+                    <input type="reset" id="botao2" name="botao2"
+                    value="Limpar">
+        </br>
+                    Email
+                    <input type="email" id="email" name="email"
+                    required placeholder="Informe seu e-mail">
+                    
+                    
+
+                    feminino
+                    <input type="radio" id="Feminino" name="Sexo">
+            </br>
+            
+                    masculino
+                    <input type="radio" id="Masculino" name="Sexo">
+                    </br>
+                    
+                    <input type="tel" id="telefone" name="telefone"
+                   pattern="[0-9]{2}-[0-9]{4}-[0-9]{4}"  placeholder="Digite seu telefone">
+                    </br>
+                    Altura
+                    <input type="number" id="altura" name="altura"
+                    placeholder="Informe sua altura">
+                    </br>
+                    Escolha seu prato favorito
+                    <select id="prato" name="prato">
+                        <option value="escolha"></option>
+                        <option value="las">Lasanha</option>
+                        <option value="churras">Churrasco</option> 
+                        <option value="SP">São paulo</option>
+                    </select>
+        
+
+
+            </form>
+
+    </main>
+    
+</body>
+</html>
